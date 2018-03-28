@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ZumoB2CForms"
+             x:Class="ZumoB2CForms.MainPage">
+
+    <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+        <Button Text="Sign in!" Clicked="Login" />
+        <Button Text="Get Unsecured Data" Clicked="GetUnsecured" />
+        <Button Text="Get Secured Data" Clicked="GetSecured" />
+    </StackLayout>
+
+</ContentPage>
