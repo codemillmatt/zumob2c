@@ -50,5 +50,16 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>ZumoB2CForms</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>ZumoB2CForms</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>zumob2c://easyauth.callback</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
