@@ -10,7 +10,7 @@ namespace ZumoB2C.Controllers
         [Authorize]
         public string Get()
         {
-            return "I come from a secured land!";
+            return "💰💍";
         }
     }
 }

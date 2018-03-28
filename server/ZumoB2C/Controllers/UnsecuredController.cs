@@ -9,7 +9,7 @@ namespace ZumoB2C.Controllers
         // GET api/Unsecured
         public string Get()
         {
-            return "I am free as the wind!";
+            return "😱";
         }
     }
 }
